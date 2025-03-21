@@ -1,0 +1,19 @@
+{
+    "name": "bhavneeshgoyal99/laravelgithub",
+    "description": "A package to interact with GitHub API without Git installed.",
+    "autoload": {
+        "psr-4": {
+            "Bhavneeshgoyal99\\LaravelGitHub\\": "src/"
+        }
+    },
+    "require": {
+        "guzzlehttp/guzzle": "^7.0"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Bhavneeshgoyal99\\LaravelGitHub\\GitHubAPIServiceProvider"
+            ]
+        }
+    }
+}
