@@ -1,0 +1,17 @@
+* text=auto
+
+*.blade.php diff=html
+*.css diff=css
+*.html diff=html
+*.md diff=markdown
+*.php diff=php
+
+/.github export-ignore
+CHANGELOG.md export-ignore
+.styleci.yml export-ignore
+# Specify LF for specific file types
+*.sh text eol=lf
+*.yml text eol=lf
+
+# Specify CRLF for specific file types
+*.bat text eol=crlf
